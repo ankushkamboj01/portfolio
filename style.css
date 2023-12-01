@@ -43,6 +43,9 @@ nav ul li a {
   align-items: center;
   flex-direction: column;
 }
+ul li a i{
+  font-size: 14px;
+}
 nav .left {
   font-size: 2.5rem;
   font-weight: 700;
@@ -321,7 +324,7 @@ input[type="submit"]:hover {
   }
 
   nav ul li {
-    font-size: 14px;
+    font-size: 10px;
     margin: 0 14px;
   }
   main {
