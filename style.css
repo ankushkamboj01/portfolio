@@ -245,7 +245,7 @@ main {
 }
 
 .project h3 {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: #ffffff;
   font: bold;
   margin-top: 180px;
@@ -316,16 +316,20 @@ input[type="submit"]:hover {
     display: none;
   }
   .nav-icons{
-    display: block !important;
+    display: flex !important;
 }
   nav {
     height: 60px;
     bottom: 0;
   }
-
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
   nav ul li {
-    font-size: 10px;
-    margin: 0 16px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
   }
   main {
     padding-top: 0px;
